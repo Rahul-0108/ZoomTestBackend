@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "name": "project1",
+            "subprojects": [ {
+                "name" : "sub1",
+                "tasks": [
+                    {
+                        "name": "task1",
+                        "description": "task1 description",
+                        "status": "done",
+                        "priority": "high"
+                    },
+                    {
+                        "name": "task2",
+                        "description": "task2 description",
+                        "status": "in progress",
+                        "priority": "high"
+                    }
+                ]
+            }]
+        },
+        {
+            "name": "project2",
+            "subprojects": [ {
+                "name" : "sub1",
+                "tasks": [
+                    {
+                        "name": "task1",
+                        "description": "task1 description",
+                        "status": "done",
+                        "priority": "high"
+                    },
+                    {
+                        "name": "task2",
+                        "description": "task2 description",
+                        "status": "in progress",
+                        "priority": "high"
+                    }
+                ]
+            }]
+        }
+    ]
+}
